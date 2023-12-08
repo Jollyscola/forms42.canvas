@@ -10,12 +10,6 @@
    vertical-align: top;
 }
 
-.container:not(.flex)
-{
-   padding:30px;
-   background-color: #36393e;
-}
-
 .left
 {
    margin-right:auto;
@@ -71,10 +65,10 @@ legend.right
 
 fieldset
 {
+	margin: 20px;
    padding: 10px;
    width: max-content;
 	border-radius: 5px;
-	margin-bottom: 10px;
    background-color: white;
 }
 
