@@ -115,8 +115,9 @@ fieldset legend
 [type="row-indicator"].active
 {
 
-   top: 15px;
-   width: 10px;
+   top: 5px;
+   width: 3px;
+   left: 10px;
    height: 10px;
    border-radius: 50px;
    background-color: gray;
