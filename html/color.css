@@ -1,7 +1,7 @@
 /* page */
 .form-area
 {
-   background-image:linear-gradient(to right bottom, rgba(97, 112, 227, 0.8),rgba(100, 101, 179, 0.8)) , url(images/background.jpg);
+   background:linear-gradient(to right bottom, rgba(97, 112, 227, 0.8),rgba(100, 101, 179, 0.8));
 }
 
 .page-footer
@@ -90,7 +90,7 @@ div[name="popup-header"]
    border-bottom: 1px white solid;
 }
 
-
+/* used https://codepen.io/sosuke/pen/Pjoqqp if you need change color for filter*/
 div[name="toggle"]
 {
    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(120deg) brightness(105%) contrast(101%);
@@ -133,7 +133,7 @@ div[name="close-button"]:focus
 /*-----------------------*/
 /* popup */
 
-/* used https://codepen.io/sosuke/pen/Pjoqqp if you need change color for filter*/
+
 
 div[name="popup-body"]
 {
@@ -148,6 +148,8 @@ div[name="popup-body"] div[name="date-picker"]
 {
    background-color: white;
 }
+
+/* used https://codepen.io/sosuke/pen/Pjoqqp if you need change color for filter*/
 
 #block  ~ div[name="popup-body"] div[name="alertlogo"]
 {
@@ -298,44 +300,3 @@ button:hover::after {
  }
 
 /*--------------------*/
-/* needle */
-
-.needle::before
-{
-   border: solid 1px rgba(10, 5, 5, 30%);
-}
-
-.red
-{
-	background: linear-gradient(to right, red, rgb(155, 0, 0),red);
-}
-
-.red::before,
-.red::after
-{
-	background: red;
-}
-
-.blue
-{
-	background: linear-gradient(to right, blue, rgb(0, 0, 155),blue);
-}
-
-.blue:before,
-.blue::after
-{
-	background:blue;
-}
-
-.green
-{
-	background: linear-gradient(to right, green, rgb(0, 90, 0),green);
-}
-
-.green:before,
-.green::after
-{
-	background:green;
-}
-
-/*-------------------*/
